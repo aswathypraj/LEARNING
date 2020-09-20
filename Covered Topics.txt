@@ -1,0 +1,17 @@
+-installing django
+-editor-visual studio code
+installing and using basic git commands - git --version,git add, git status, git commit, git log
+
+Create django project - django-admin startproject <project name>
+
+start django server and 
+-python manage.py runserver
+
+opening the default page http://127.0.0.1:8000/
+
+specify the port number by passing in command itself python manage.py runserver 8080
+
+
+creating one module or app in the django project
+
+python manage.py startapp <app_name aka module name>
