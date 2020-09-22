@@ -2,6 +2,8 @@
 -editor-visual studio code
 installing and using basic git commands - git --version,git add, git status, git commit, git log
 
+git commit -m <message>
+
 Create django project - django-admin startproject <project name>
 
 start django server and 
@@ -15,3 +17,5 @@ specify the port number by passing in command itself python manage.py runserver 
 creating one module or app in the django project
 
 python manage.py startapp <app_name aka module name>
+
+git checkout <filename>
