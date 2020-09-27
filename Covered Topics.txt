@@ -18,4 +18,26 @@ creating one module or app in the django project
 
 python manage.py startapp <app_name aka module name>
 
-git checkout <filename>
+git checkout <filename> , to get the latest version available in git repository
+
+.gitignore files and its usage
+
+git rm -r -f <file/directory> to remove file(s) from commited set
+
+git revert command to rollback to a just previous broken commit
+
+create new branch
+git branch <branch name>
+
+changing the current head new branch
+git checkout <branch name>
+
+doing above operations 
+
+for merging a branch to  main repository first checkout to main repository then 
+
+get merge <branch name>
+
+if there is a conflict it will not merge. we will need to fix conflict and then do git commit command
+
+if we do not want to fix right away but continue then, we can run command git merge --abort
