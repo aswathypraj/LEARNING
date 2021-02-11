@@ -1,0 +1,116 @@
+---------Function displayAll----------
+
+Total no. of Companies: 8
+Total no. of Directors: 15
+
+List of Companies: 
+ABCD Corp
+HAHAHA Laughing Corp
+Gags
+Green Bottle
+HDFC
+Seaspan
+Lucid
+Creative Ltd
+
+List of Directors: 
+James Smith
+Maria Garcia
+Maria Hernandez
+Juan Carlos
+Marcus Ceaser
+Sean Maxwell
+Juan Seasew
+Ceaser Gold
+Monica
+external
+George
+Graham
+Maria
+Mathew
+James
+--------------------------------------------
+
+---------Function displayDirectors----------
+Company name:ABCD Corp
+List Of Directors:
+James Smith
+Maria Garcia
+--------------------------------------------
+
+---------Function displayDirectors----------
+Company name:HaHaHa Laughing Corp
+List Of Directors:
+
+----ERROR----
+HaHaHa Laughing Corp not found 
+ * case sensitive 
+No directors exist 
+--------------------------------------------
+
+---------Function displayDirectors----------
+Company name:HAHAHA Laughing Corp
+List Of Directors:
+Maria Garcia
+Maria Hernandez
+Juan Carlos
+Marcus Ceaser
+Sean Maxwell
+--------------------------------------------
+
+---------Function displayCompanies----------
+Director name:James Smith
+List Of Companies:
+ABCD Corp
+Gags
+--------------------------------------------
+
+---------Function displayCompanies----------
+Director name:Maria Garcia
+List Of Companies:
+ABCD Corp
+HAHAHA Laughing Corp
+--------------------------------------------
+
+---------Function findCommonDirector--------
+Company A:ABCD Corp
+Company B:Gags
+Related:Yes, James Smith
+--------------------------------------------
+
+---------Function findCommonDirector--------
+Company A:ABCD Corp
+Company B:Seaspan
+Related:No
+--------------------------------------------
+
+---------Function findCommonDirector--------
+Company A:Lucid
+Company B:Seaspan
+Related:Yes, George
+--------------------------------------------
+
+---------Function findCommonDirector--------
+Company A:Lucid
+Company B:Creative Ltd
+Related:Yes, George, Mathew
+--------------------------------------------
+
+---------Function findRelatedCompany--------
+Company A:Seaspan
+Company B:Lucid
+Related: Yes 
+--------------------------------------------
+
+---------Function findRelatedCompany--------
+Company A:ABCD Corp
+Company B:HAHAHA Laughing Corp
+Related: Yes 
+--------------------------------------------
+
+---------Function findRelatedCompany--------
+Company A:Seaspan
+Company B:ABCD Corp
+Related: No 
+--------------------------------------------
+

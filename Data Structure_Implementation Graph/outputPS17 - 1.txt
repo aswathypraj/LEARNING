@@ -1,0 +1,4 @@
+--------Parsing Input File 'inputPS17.txt' ---------------------------
+
+Invalid Entry at line 6
+Format of input - Company Name / Director Name / Director Name / ... 
